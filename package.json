@@ -1,0 +1,17 @@
+{
+  "name": "langchain-sql-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.57",
+    "prompt-sync": "^4.2.0",
+    "sqlite3": "^5.1.6",
+    "typeorm": "^0.3.15"
+  },
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
